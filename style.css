@@ -1,0 +1,90 @@
+h3{
+    text-align: center;
+    font-size: 32px;
+    align-items: center;
+    color: black;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-image: url(./img/cristina-gottardi-CSpjU6hYo_0-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.sign-in {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    align-items: center;
+    justify-content: center;
+    width: 490px;
+    background: #136a8a;
+    background: #606c88;
+    background: #24C6DC;
+    background: -webkit-linear-gradient(to right, #514A9D, #24C6DC);
+    background: linear-gradient(to right, #514A9D, #24C6DC); 
+    border-radius: 20px;
+    padding: 40px;
+    opacity: 0.9;
+}
+
+form h1 {
+    font-size: 50px;
+    color: #ffffff;
+    margin: 20px 0px;
+}
+
+.sign-in label {
+    font-size: 17px;
+    color: #d8d8d8;
+    width: 270px;
+    text-align: left;
+}
+
+.sign-in input,
+textarea {
+    width: 270px;
+    padding: 4px;
+    border: none;
+    background: transparent;
+    border-bottom: 2px solid #250424;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+}
+
+.sign-in textarea,
+input:focus {
+    border-bottom: 2px solid #250424;
+    outline: #250424;
+    background: none;
+}
+
+button {
+    width: 120px;
+    border: none;
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 12px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+}
